@@ -1,0 +1,20 @@
+body {
+    background: gray; 
+}
+.row {
+    flex-direction: row;
+    display: flex;
+    background: yellow;
+}
+.column {
+    margin: 32px;
+}
+.column1 {
+    background: orange;
+}
+.column2 {
+    background: red;
+}
+.column3 {
+    background: black;
+}
