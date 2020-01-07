@@ -3,7 +3,7 @@ html, body, .container {
     height: 100%;
 }
 body {
-    background: #e2e2e2; 
+    background: #e2e2e2;
 }
 header, main, footer {
     width: 100%;
@@ -19,6 +19,16 @@ header, footer {
     max-width: 992px;
     margin: 0 auto;
 }
-main {
+.wrap {
     flex: 1;
+    flex-direction: row;
+    display: flex;
+    background: white;
+}
+nav, main {
+    margin: 16px;
+    background: #aaa;
+}
+nav {
+    width: 32px;
 }
