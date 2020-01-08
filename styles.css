@@ -9,16 +9,28 @@ html, body {
     display: flex;
     flex-direction: column;
     height: 100%;
-    
-    }
+}
 
-header,main,footer {
+header,footer {
     background: brown;
     height: 32px;
     margin: 16px 0;
 }
 
-main {
+.wrap {
+    background: gray;
+    flex-direction: row;
     display: flex;
+    flex: 1;
+}
+
+nav, main {
+    background: black;
+    margin: 16px;
+}
+nav {
+    width: 16px;
+}
+main {
     flex: 1;
 }
